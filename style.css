@@ -1,0 +1,142 @@
+
+/* body styling */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+    
+h2{
+    font-size: 2rem;
+
+}
+h3{
+    font-size: 3rem;
+    
+}
+p{
+    font-family: sans-serif;
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration:aliceblue;
+}
+/*Everything for navigation bar*/
+nav {
+    display: flex;
+    align-items: flex-end;
+    position:fixed;
+    width:100%;
+    background: rgb(87, 192, 26);
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.active{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: aqua;
+}
+li {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+    color: aliceblue;
+}
+
+/*Everything for home page*/
+#Home_page{
+    /* background-image: linear-gradient(180deg, white,rgb(181, 195, 223)); */
+    margin-bottom: 1rem;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.left {
+    position: relative;
+    left: 30px;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.aside-main {
+    margin: 2rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+/*Everything for 2nd page*/
+#About_us{
+    background-image: linear-gradient(180deg, white, rgb(89, 248, 124));
+    height: 95vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+
+/*Everything for 3rd page */
+#Our_team{
+    background-image: linear-gradient(180deg, white, rgb(89, 248, 124));
+    height: 95vh;
+    width: 100%;
+    padding-top: 5rem;
+    text-align: center;
+    
+}
+
+/*Everything for 4th page*/
+#Contact_us{
+    background-image: linear-gradient(180deg, white, rgb(89, 248, 124));
+    height: 87vh;
+    width: 100%;
+    padding-top: 5rem;
+    text-align: center;
+}
+#logo{
+    height: 14rem;
+    position: relative;
+}
+.social_medias{
+    color: aliceblue;
+    background: rgb(73, 72, 72);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  .fa-facebook:hover{
+      background:white;
+
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  footer{
+      position: relative;
+      background: rgb(87, 192, 26);
+      top: 60%;
+      padding: 1em;
+  }
